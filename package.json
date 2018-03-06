@@ -1,0 +1,26 @@
+{
+  "name": "start_with_vue",
+  "version": "1.0.0",
+  "description": "first steps with vue",
+  "main": "vue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksenia-gezalova/vue_task.git"
+  },
+  "author": "Ksenia Gezalova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksenia-gezalova/vue_task/issues"
+  },
+  "homepage": "https://github.com/ksenia-gezalova/vue_task#readme",
+  "dependencies": {
+    "vuejs-paginator": "^2.0.2",
+    "vuetable": "^1.5.12"
+  },
+  "devDependencies": {
+    "vue-tables-2": "^1.3.53"
+  }
+}
