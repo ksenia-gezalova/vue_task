@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slot test</title>
+    <script type="text/javascript" src="vue.js"></script>
+</head>
+<body>
+   <div id="app">
+       <comp>
+           <div class="content">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat cumque unde ipsam eum eaque nesciunt quam quae placeat dolore at dolorem dignissimos tenetur non quibusdam eius reiciendis, praesentium. Unde, saepe.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat cumque unde ipsam eum eaque nesciunt quam quae placeat dolore at dolorem dignissimos tenetur non quibusdam eius reiciendis, praesentium. Unde, saepe.</p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat cumque unde ipsam eum eaque nesciunt quam quae placeat dolore at dolorem dignissimos tenetur non quibusdam eius reiciendis, praesentium. Unde, saepe.</p>
+           </div>
+       </comp>
+   </div>
+    
+    <template id="temp">
+        <div class="style">
+            <h1 class="header">The article title</h1>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="footer">By Vue</div>
+            <div class="category">News</div>
+        </div>
+    </template>
+    
+    <script type="text/javascript">
+        Vue.component('comp',{
+            template: '#temp',
+            data: function() {
+                return {}
+            },
+            props:[],
+            methods:{},
+        })
+        
+        var vm = new Vue({
+            data:
+        })
+    </script>
+</body>
+</html>

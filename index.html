@@ -113,14 +113,6 @@
         <textarea cols="30" rows="10" v-model="message" v-on:input="check" v-bind:class="{warning: !remain}"></textarea>
         <p>{{remain}}/{{limit}}</p>
     </div>
-    
-    <!-- to start work with component we need to create templeate or use <script type="text/x-template></script>-->
-    <template id="temp">
-       <!-- need to create one div, keep everything inside the root DIV-->
-        <div> 
-            <p>This is a component</p>
-        </div>
-    </template>
 
     <script type="text/javascript" src="vue.js"></script>
     <script type="text/javascript" src="app.js"></script>

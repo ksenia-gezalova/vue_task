@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Vue Component</title>
+    <style>
+        .comp_root {
+            background-color: red;
+            color: white;
+        }
+    </style>
+    <script type="text/javascript" src="vue.js"></script>
+</head>
+<body>
+    <div id="app1">
+        <p>VM instance</p>
+        <comp v-bind:prop='vue_data'></comp>
+    </div>
+     <div id="app">
+         <simple_comp></simple_comp>
+     </div>
+  <!-- to start work with component we need to create templeate or use <script type="text/x-template></script>-->
+    <template id="temp">
+       <!-- need to create one div, keep everything inside the root DIV-->
+        <div class="comp_root"> 
+            <p>This is a component</p>
+            <p>{{message}}</p>
+        </div>
+    </template>
+    
+    <template id="temp1">
+        <div>
+            <p>{{message}}</p>
+        </div>
+    </template>
+
+    <script type="text/javascript" src="vue.js"></script> 
+    <script type="text/javascript" src="component-1.js"></script>
+</body>
+</html>

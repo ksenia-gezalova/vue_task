@@ -67,12 +67,3 @@ var vm = new Vue ({
           }
       },
   })
-  
-  Vue.component('simple_comp'{
-    template: '#temp',
-    data: function() {
-        return {}
-    },
-    props:[],
-    methods: {},   
-})
